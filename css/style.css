@@ -4,19 +4,55 @@
     padding: 0;
 }
 
-.header-container{
-    min-height: 60px;
-    background-color: lightgrey;
-    display: flex;
-    justify-content: space-between;
-    
-    
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 
-.left-header, .right-header{
+.header-container {
+    min-height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
     min-width: 20%;
-    background-color: lightcyan;
-    
+    padding: 5px 10px;
+}
+
+.small-logo {
+    margin-right: 10px; 
+}
+
+.left-header a, .right-header a {
+    text-decoration: none;
+    color: black; 
+    padding: 0 15px;
+}
+
+.header-container .left-header a:hover,
+.header-container .right-header a:hover {
+    text-decoration: underline;
+}
+
+
+.right-header {
+    min-width: 20%;
+    padding: 5px 10px;
+}
+
+
+.right-header button{
+    background-color: rgb(62, 62, 248);
+    color: white;
+    border: none;
+    width: 60px;
+    height: 30px;
 }
 
 /* Section JumboTron */
@@ -24,14 +60,10 @@ section{
     min-height: 450px;
     background-color: lightblue;
     padding-top: 1px;
+    padding: 7% 20%;
 }
 
-.jumbotron-container{
-    min-width: 60%;
-    min-height: 40%;
-    background-color: beige;
-    padding: 5% 10%;
-}
+
 
 .jumbo-columns{
     display: flex;
@@ -46,6 +78,11 @@ section{
     
 }
 
+h1{
+    font-size: 55px;
+    font-weight: 999;
+}
+
 
 /* Section Pricing */
 
@@ -55,6 +92,8 @@ section{
 
       
 }
+
+
 
 .pricing-container{
     background-color: lightgreen;
