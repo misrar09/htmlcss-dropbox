@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    min-height: 60px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.left-header, .right-header{
+    min-width: 20%;
+    background-color: lightcyan;
+    
+}
+
+/* Section JumboTron */
+section{
+    min-height: 450px;
+    background-color: lightblue;
+    padding-top: 1px;
+}
+
+.jumbotron-container{
+    min-width: 60%;
+    min-height: 40%;
+    background-color: beige;
+    padding: 5% 10%;
+}
+
+.jumbo-columns{
+    display: flex;
+
+}
+
+.text{
+    max-width: 30%;
+}
+
+.image{
+    
+}
+
+
+/* Section Pricing */
+
+.centered-container{
+    margin: 80px 180px;
+
+
+      
+}
+
+.pricing-container{
+    background-color: lightgreen;
+
+
+}
+
+.packages{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.packages .col{
+    min-width: calc(100% / 3 - 10px);
+    min-height: 400px;
+    border: solid 0.5px black;
+
+}
+
+.team{
+    min-height: 100px ;
+    background-color: lightpink;
+    margin-top: 10px;
+    border: solid 0.5px black;
+}
+
+
+.partner{
+    display: flex;
+    border: solid 0.5px black;
+    min-height: 100px;
+    
+}
+
+
+
+.oth-opr-columns{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+    
+
+  
+    
+}
+
+.oth-opr-columns .col{
+
+    border: solid 0.5px black;
+    width: calc(100% / 3 - 10px);
+    margin-bottom: 10px;
+
+    
+}
+
+
+
+
+.info-db{
+
+}
+
+
+.clients{
+    min-height: 500px;
+    background-color: lightseagreen;
+}
+
+.invite{
+    min-height: 200px;
+    background-color: rgb(70, 112, 110);
+}
+
+
+.faq{
+    min-height: 400px;
+    background-color: rgb(121, 236, 127);
+}
+
+
+footer{
+    min-height: 450px;
+    background-color: rgb(156, 153, 153);
+    padding-top: 1px;
+    color: white;
+    
+    
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    padding: 5% 10%;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.lang{
+
+    padding: 2% 10%;
+
+}
+
+.lang hr{
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
