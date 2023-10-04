@@ -516,6 +516,7 @@ h1 {
 
 .faq {
     min-height: 400px;
+    
 
 }
 
@@ -532,9 +533,13 @@ h1 {
     
 }
 
-.questions:hover + .answers {
+.qa:hover + .answers {
     display: block;
     
+}
+
+.qa:hover .fa-chevron-down {
+    transform: rotate(180deg);
 }
 
 .last{
@@ -545,6 +550,18 @@ h1 {
     display: none;
     
 }
+
+.qa{
+    position: relative;
+}
+
+.fa-chevron-down{
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+
+
 
 /* SECTION FOOTER */
 
@@ -594,3 +611,4 @@ ul {
     width: 100px;
     color: grey;
 }
+
